@@ -21,3 +21,13 @@ or
 `git merge master // refreshing current branch with (last) master branch` 
 
 `git branch -d exampleBranch // delete exampleBranch`
+
+`git log // detailed list of commits`
+
+`git log --pretty=format:"%h %s" --graph // oneline format with short hash and tree`
+
+`git checkout oldHashVersion_onSameBranch  // HEAD pointer is still on most fresh version --> 'detached head'`
+
+`git switch -c newThread // detached head position back in timeline, with opening a new timeline from this present`
+
+`git revert HEAD // step back from last commit`
