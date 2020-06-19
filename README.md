@@ -21,7 +21,3 @@ or
 `git merge master // refreshing current branch with (last) master branch` 
 
 `git branch -d exampleBranch // delete exampleBranch`
-
-`git log // detailed list of commits`
-
-`git log --pretty=format:"%h %s" --graph // oneline format with short hash and tree`
