@@ -28,6 +28,10 @@ or
 
 - rename a local branch: `git branch -m oldName newName`
 
+## change account
+
+- windows / control panel / user accounts / credential managers
+
 ## walking back in time
 
 ### & deleting
